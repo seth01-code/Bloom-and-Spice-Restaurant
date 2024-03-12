@@ -1,0 +1,64 @@
+.Header-container{
+width: 100%;
+}
+
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+}
+
+
+.Nav-bar img{
+    width: 5%;
+
+}
+
+/* .slur{
+    background-color: #F28500;
+    height: 35rem;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    border-bottom-right-radius: 50%;
+} */
+
+.nav-list{
+    display: flex;
+    gap: 3rem;
+    color: #FFE0AE;
+}
+
+a:hover{
+    color: #F28500;
+}
+
+.header__optionBasket{
+    display: flex;
+    font-size: 1.4rem;
+    gap: .2rem;
+}
+
+.header__optionLineTwo{
+    font-size: 1rem;
+}
+
+.header__basketCount{ 
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.sign-up{
+    width: 8rem;
+    height: 3rem;
+    margin-top: -10px;
+    background-color: #F28500;
+    color: #FFE0AE;
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 20px #f28500d6;
+}
+
+.sign-up:hover{
+    transform: scale();
+}
